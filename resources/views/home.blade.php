@@ -22,6 +22,12 @@
         
     </ul>
 
+
+    <ul>
+        @foreach ($links as $link)
+        <li><a href="{{route($link)}}">{{$link}}</a></li>
+        @endforeach
+    </ul>
     
 </body>
 </html>
