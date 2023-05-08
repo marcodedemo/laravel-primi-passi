@@ -22,6 +22,8 @@
         
     </ul>
 
+    <hr>
+
 
     <ul>
         @foreach ($links as $link)
