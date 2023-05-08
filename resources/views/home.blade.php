@@ -9,6 +9,19 @@
 <body>
 
     <h1>Hello world</h1>
+
+    <hr>
+
+    <h2>Di seguito qualche colore:</h2>
+
+    <ul>
+
+        @foreach ($colori as $colore)
+        <li>{{ $colore }}</li>
+        @endforeach
+        
+    </ul>
+
     
 </body>
 </html>
